@@ -18,9 +18,9 @@
 		</dict>
 		<dict>
 			<key>type</key>
-			<string>css</string>
+			<string>scss</string>
 			<key>filename</key>
-			<string>each.css</string>
+			<string>each.scss</string>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -38,6 +38,10 @@
 	</array>
 	<key>libraries</key>
 	<array>
+		<dict>
+			<key>name</key>
+			<string>jQuery</string>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Velocity</string>
