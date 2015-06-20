@@ -18,3 +18,7 @@ The included libraries are treated much like Site Assets. A single copy of the l
 
 ##### HTML in the `<HEAD>`
 A single library include line is added to each page that uses the stack and needs the library no matter how many stacks request it.
+
+The include lines for this API will appear after other libraries (jQuery, jQueryUI, MooTools, and FontAwesome). CSS will be loaded before JS. There is no garanteed order.
+
+CSS included libraries ***are included in edit mode*** however JS is not (there is no JS in edit mode).
