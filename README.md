@@ -7,9 +7,9 @@ This stack's purpose is to demonstrate the Stacks 3 API for linking and includin
 ### Using the library API
 The new libraries API allows you to define the name, type, and filename of libraries that you include in your stack.
 
-Key: `name` *string* The name of the library. This will be used to match other stacks that include the same library.
-Key: `type` *string* The type of the library:  `css`, `js`.
-Key: `filename` *string* The filename of the included library within the Resources folder of your stack. ***DO:*** include the file extension of the library. ***DO NOT:*** include the path.
+- Key: `name` *string* The name of the library. This will be used to match other stacks that include the same library.
+- Key: `type` *string* The type of the library:  `css`, `js`.
+- Key: `filename` *string* The filename of the included library within the Resources folder of your stack. ***DO:*** include the file extension of the library. ***DO NOT:*** include the path.
 
 ### How do these get used
 
